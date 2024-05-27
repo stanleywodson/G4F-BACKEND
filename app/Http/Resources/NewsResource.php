@@ -16,9 +16,12 @@ class NewsResource extends JsonResource
     public function toArray(Request $request): array
     {
         return [
+            'id' => $this->id,
             'title' => $this->title,
             'description' => $this->description,
-            'created_at' => Carbon::parse($this->created_at)->diffForHumans()
+            'created_at_humans' => Carbon::parse($this->created_at)->diffForHumans(),
+            'created_at' =>  Carbon::parse($this->created_at)->format('d/m/Y'),
+            'update_at' =>  Carbon::parse($this->updated_at)->format('d/m/Y'),
         ];
     }
 }
