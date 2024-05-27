@@ -90,17 +90,17 @@ Acessar o projeto
 
 
 GET ALL 
- api/v1/news
+ /api/v1/news
 
 POST   
- api/v1/news
+ /api/v1/news
 
 GET ONE      
-  api/v1/news/1
+ /api/v1/news/1
 
 PUT      
- api/v1/news/1
+ /api/v1/news/1
 
 DELETE  
- api/v1/news/1
+ /api/v1/news/1
 
