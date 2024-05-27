@@ -17,8 +17,8 @@ class NewsFactory extends Factory
     public function definition(): array
     {
         return [
-            'title' => 'sdfsdfsdf',
-            'description' => 'fsdflsdfsdkfjsldfjsldfksd',
+            'title' => fake()->sentence(),
+            'description' => fake()->text(),
         ];
     }
 }
