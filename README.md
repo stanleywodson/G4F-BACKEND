@@ -88,6 +88,7 @@ Acessar o projeto
 
 # END POINTS
 
+
 GET ALL 
  api/v1/news
 
